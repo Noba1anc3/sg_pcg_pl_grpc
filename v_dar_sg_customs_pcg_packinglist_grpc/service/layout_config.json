@@ -1,0 +1,272 @@
+{
+  "PLShipper": {
+    "left": [
+      {
+        "box_key": "origin_image",
+        "operation": "min",
+        "add": 0
+      }
+    ],
+    "right": [
+      {
+        "box_key": "ship date",
+        "operation": "min",
+        "add": 0
+      }
+    ],
+    "top": [
+      {
+        "box_key": "page",
+        "operation": "max",
+        "add": 0
+      }
+    ],
+    "bottom": [
+      {
+        "box_key": "incoterm",
+        "operation": "max",
+        "add": 0
+      }
+    ]
+  },
+  "PLConsignee": {
+    "left": [
+      {
+        "box_key": "incoterm",
+        "operation": "min",
+        "add": 0
+      }
+    ],
+    "right": [
+      {
+        "box_key": "notes",
+        "operation": "min",
+        "add": 0
+      }
+    ],
+    "top": [
+      {
+        "box_key": "ship to",
+        "operation": "max",
+        "add": 0
+      }
+    ],
+    "bottom": [
+      {
+        "box_key": "customer #:",
+        "operation": "min",
+        "add": 0
+      }
+    ]
+  },
+  "PLNo": {
+    "left": [
+      {
+        "box_key": "mfg part# / part description / manufacturer",
+        "operation": "max",
+        "add": 0
+      }
+    ],
+    "right": [
+      {
+        "box_key": "page",
+        "operation": "min",
+        "add": 0
+      }
+    ],
+    "top": [
+      {
+        "box_key": "page",
+        "operation": "max",
+        "add": 0
+      }
+    ],
+    "bottom": [
+      {
+        "box_key": "sales person",
+        "operation": "min",
+        "add": 0
+      }
+    ]
+  },
+  "PLTotalQty": {
+    "left": [
+      {
+        "box_key": "mfg part# / part description / manufacturer",
+        "operation": "max",
+        "add": 0
+      }
+    ],
+    "right": [
+      {
+        "box_key": "packer",
+        "operation": "min",
+        "add": 0
+      }
+    ],
+    "top": [
+      {
+        "box_key": "net weight",
+        "operation": "max",
+        "add": 0
+      }
+    ],
+    "bottom": [
+      {
+        "box_key": "ship to",
+        "operation": "min",
+        "add": 0
+      }
+    ]
+  },
+  "PLQtyUom": {
+    "left": [
+      {
+        "box_key": "cartons",
+        "operation": "min",
+        "add":0            
+      }
+    ],
+    "right": [
+      {
+        "box_key": "cartons",
+        "operation": "max",
+        "add": 0
+      }
+    ],
+    "top": [
+      {
+        "box_key": "cartons",
+        "operation": "min",
+        "add": 0
+      }
+    ],
+    "bottom": [
+      {
+        "box_key": "cartons",
+        "operation": "max",
+        "add": 0
+      }
+    ]
+  },
+  "PLNW": {
+    "left": [
+      {
+        "box_key": "net weight",
+        "operation": "max",
+        "add": 0
+      }
+    ],
+    "right": [
+      {
+        "box_key": "cartons",
+        "operation": "min",
+        "add": 0
+      }
+    ],
+    "top": [
+      {
+        "box_key": "incoterm",
+        "operation": "max",
+        "add": 0
+      }
+    ],
+    "bottom": [
+      {
+        "box_key": "packer",
+        "operation": "min",
+        "add": 0
+      }
+    ]
+  },
+  "PLPage": {
+    "left": [
+      {
+        "box_key": "page",
+        "operation": "max",
+        "add": 0
+      }
+    ],
+    "right": [
+      {
+        "box_key": "page",
+        "operation": "max",
+        "add": 2.5 
+      }
+    ],
+    "top": [
+      {
+        "box_key": "origin_image",
+        "operation": "min",
+        "add": 0
+      }
+    ],
+    "bottom": [
+      {
+        "box_key": "ship date",
+        "operation": "min",
+        "add": 0
+      }
+    ]
+  },
+  "PLMPM": {
+      "left": [
+        {
+          "box_key": "sales order",
+          "operation": "max",
+          "add": 0
+        }
+      ],
+      "right": [
+        {
+          "box_key": "ordered",
+          "operation": "min",
+          "add": 0
+        }
+      ],
+      "top": [
+        {
+          "box_key": "mfg part# / part description / manufacturer",
+          "operation": "max",
+          "add": 0
+        }
+      ],
+      "bottom": [
+        {
+          "box_key": "totals",
+          "operation": "min",
+          "add": 0
+        }
+      ]
+  },
+  "PLShipped": {
+      "left": [
+        {
+          "box_key": "ordered",
+          "operation": "max",
+          "add": 0
+        }
+      ],
+      "right": [
+        {
+          "box_key": "origin_image",
+          "operation": "max",
+          "add": 0
+        }
+      ],
+      "top": [
+        {
+          "box_key": "shipped",
+          "operation": "max",
+          "add": 0
+        }
+      ],
+      "bottom": [
+        {
+          "box_key": "totals",
+          "operation": "min",
+          "add": 0
+        }
+      ]
+  }
+}
